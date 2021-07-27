@@ -1,0 +1,68 @@
+body {
+    background-color: grey;
+}
+
+.nav-main {
+    height: 50px;
+    top: 60px;
+    width: 50px;
+    padding: 0 5px;
+    transition: all 0.7s ease-in-out;
+}
+
+.btn-toggle-nav {
+    width: 50px;
+    height: 100%;
+
+    background-image: url("img/hamburger.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out 0.3;
+}
+
+.nav-main ul {
+    display: flex;
+    flex-wrap: wrap;
+    visibility: hidden;
+}
+
+.nav-main ul li {
+    list-style: none;
+    padding: 10px 20px;
+   
+}
+
+
+.nav-main ul li a {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.7s ease-in-out 0.3s;
+    
+}
+
+.btn-home {
+    background-color: grey;
+}
+.btn-red {
+    background-color: red;
+}
+
+.btn-yellow {
+    background-color: yellow;
+}
+
+.btn-blue {
+    background-color: blue;
+}
+
+.btn-green {
+    background-color: green;
+}
+h3 {
+    margin: 50px;
+}
+
